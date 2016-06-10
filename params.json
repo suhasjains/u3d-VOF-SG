@@ -1,0 +1,6 @@
+{
+  "name": "U3D-VOF-SG-Solver",
+  "tagline": "Unsteady finite volume 3D algebraic Volume of Fluid, Navier-Stokes solver on staggered grid",
+  "body": "#3D solver for two-phase flows\r\n\r\n* Unsteady. \r\n* Three-dimensional. \r\n* Incompressible Navier-Stokes. \r\n* Staggered grids. \r\n* Finite volume method. \r\n* Time integration - second order implicit three-time-level scheme.\r\n* Pressure-velocity coupling - SIMPLE algorithm. \r\n* Interface capturing - algebraic VOF method with CICSAM, STACS and HiRAC advection schemes. \r\n* Surface tension - CSF with Kernel K8 convolution and height function for curvature calculation.\r\n\r\n##Validations:\r\n\r\n![Lid driven cavity at Re1000](https://raw.githubusercontent.com/suhasjains/suhasjains.github.io/master/lid_driven.jpg)\r\nLid driven cavity at Re1000\r\n![Pressure jump inside drop in quiescent flow](https://raw.githubusercontent.com/suhasjains/suhasjains.github.io/master/p_jump_hf.jpg)\r\nPressure jump inside drop in quiescent flow\r\n![Zalesak's slotted disc after one full rotation](https://raw.githubusercontent.com/suhasjains/suhasjains.github.io/master/aofr_ml.jpg)\r\nZalesak's slotted disc after one full rotation\r\n\r\n##Changelog:\r\nLast updated April 2014.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
